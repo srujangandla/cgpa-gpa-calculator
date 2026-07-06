@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:30px auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#222;
+}
+
+.card,
+.cgpa-card,
+.gpa-card{
+    background:#fff;
+    padding:20px;
+    margin-top:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.cgpa-card,
+.gpa-card{
+    text-align:center;
+}
+
+.cgpa-card p,
+.gpa-card p{
+    font-size:34px;
+    color:#007bff;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.semester-section{
+    margin-top:20px;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input,
+select{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+    transition:.3s;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#007bff;
+    box-shadow:0 0 5px rgba(0,123,255,.3);
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#007bff;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    text-align:center;
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+    background:#f8f9fa;
+}
+
+.delete-btn{
+    background:#dc3545;
+    padding:8px 12px;
+    width:auto;
+}
+
+.delete-btn:hover{
+    background:#b02a37;
+}
+
+.edit-btn{
+    background:#ffc107;
+    color:#000;
+    padding:8px 12px;
+    width:auto;
+    margin-right:5px;
+}
+
+.edit-btn:hover{
+    background:#e0a800;
+}
+
+#projectedCgpa{
+    font-size:32px;
+    font-weight:bold;
+    color:#28a745;
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+.container{
+    width:95%;
+}
+
+table,
+thead,
+tbody,
+th,
+td,
+tr{
+    display:block;
+}
+
+thead{
+    display:none;
+}
+
+tr{
+    background:#fff;
+    margin-bottom:15px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    padding:10px;
+}
+
+td{
+    border:none;
+    border-bottom:1px solid #eee;
+    position:relative;
+    text-align:right;
+    padding-left:50%;
+}
+
+td:last-child{
+    border-bottom:none;
+}
+
+td::before{
+    position:absolute;
+    left:10px;
+    font-weight:bold;
+}
+
+td:nth-child(1)::before{content:"#";}
+td:nth-child(2)::before{content:"Subject";}
+td:nth-child(3)::before{content:"Credits";}
+td:nth-child(4)::before{content:"Grade";}
+td:nth-child(5)::before{content:"Grade Point";}
+td:nth-child(6)::before{content:"Action";}
+
+.delete-btn,
+.edit-btn{
+    width:100%;
+    margin-top:5px;
+}
+}

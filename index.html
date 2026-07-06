@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA & CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎓 GPA & CGPA Calculator</h1>
+
+    <div class="cgpa-card">
+        <h2>Current CGPA</h2>
+        <p id="cgpa">0.00</p>
+    </div>
+
+    <div class="semester-section">
+        <label>Select Semester</label>
+
+        <select id="semester">
+            <option value="1">Semester 1</option>
+            <option value="2">Semester 2</option>
+            <option value="3">Semester 3</option>
+            <option value="4">Semester 4</option>
+            <option value="5">Semester 5</option>
+            <option value="6">Semester 6</option>
+            <option value="7">Semester 7</option>
+            <option value="8">Semester 8</option>
+        </select>
+    </div>
+
+    <div class="card">
+
+        <h2>Add Subject</h2>
+
+        <div class="form-group">
+            <label>Subject Name</label>
+            <input
+                type="text"
+                id="subjectName"
+                placeholder="Enter Subject Name">
+        </div>
+
+        <div class="form-group">
+            <label>Credits</label>
+            <input
+                type="number"
+                id="credits"
+                min="1"
+                placeholder="Credits">
+        </div>
+
+        <div class="form-group">
+            <label>Grade</label>
+
+            <select id="grade">
+                <option value="">Select Grade</option>
+                <option>S</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>E</option>
+                <option>F</option>
+            </select>
+        </div>
+
+        <button id="addBtn">Add Subject</button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Subjects</h2>
+
+        <table>
+
+            <thead>
+
+            <tr>
+                <th>#</th>
+                <th>Subject</th>
+                <th>Credits</th>
+                <th>Grade</th>
+                <th>Grade Point</th>
+                <th>Action</th>
+            </tr>
+
+            </thead>
+
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="gpa-card">
+        <h2>Semester GPA</h2>
+        <p id="gpa">0.00</p>
+    </div>
+
+    <div class="card">
+
+        <h2>What-if Graduation Predictor</h2>
+        <br><br>
+        <div class="form-group">
+            <label>Expected GPA in Remaining Semesters</label>
+
+            <input
+                type="number"
+                id="futureGpa"
+                step="0.01"
+                min="0"
+                max="10"
+                placeholder="Example: 9.2">
+        </div>
+
+        <button id="simulateBtn">
+            Predict Graduation CGPA
+        </button>
+
+        <br><br>
+
+        <h3>Projected CGPA</h3>
+
+        <p id="projectedCgpa">
+            0.00
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
