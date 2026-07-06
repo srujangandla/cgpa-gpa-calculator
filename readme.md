@@ -3,6 +3,12 @@
 A responsive GPA & CGPA Calculator built using **HTML, CSS, and JavaScript**. The application allows students to manage semester-wise subjects, calculate Semester GPA (SGPA), track their cumulative CGPA, and predict their graduation CGPA using a What-if analysis.
 
 ---
+## 🌐 Live Demo
+
+Try the application here:
+
+**🔗 Live Demo:** https://cgpa-gpa-calculator-eight.vercel.app
+
 
 ## 🚀 Features
 
