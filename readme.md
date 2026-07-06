@@ -100,19 +100,19 @@ The application stores semester data in the browser using **Local Storage**, all
 
 ### Add Subject
 
-![Add Subject](cgpa-calculator\screenshots\01.png)
+![CGPA and Add Subject](cgpa-calculator\screenshots\01.png)
 
 ---
 
 ### SGPA & CGPA Calculation
 
-![SGPA and CGPA](cgpa-calculator\screenshots\02.png)
+![Subjects](cgpa-calculator\screenshots\02.png)
 
 ---
 
 ### Graduation CGPA Prediction
 
-![Prediction](screenshots/prediction.png)
+![Prediction](cgpa-calculator\screenshots\03.png)
 ---
 
 ## 🔮 Future Improvements
