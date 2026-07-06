@@ -92,17 +92,27 @@ The application stores semester data in the browser using **Local Storage**, all
 
 ## 📸 Screenshots
 
-Add screenshots of the application here.
+### Home Page
 
-Example:
+![Home Page](screenshots/home.png)
 
-```
-screenshots/
-├── home.png
-├── semester.png
-└── prediction.png
-```
+---
 
+### Add Subject
+
+![Add Subject](cgpa-calculator\screenshots\01.png)
+
+---
+
+### SGPA & CGPA Calculation
+
+![SGPA and CGPA](cgpa-calculator\screenshots\02.png)
+
+---
+
+### Graduation CGPA Prediction
+
+![Prediction](screenshots/prediction.png)
 ---
 
 ## 🔮 Future Improvements
