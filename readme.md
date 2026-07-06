@@ -7,7 +7,7 @@ A responsive GPA & CGPA Calculator built using **HTML, CSS, and JavaScript**. Th
 
 Try the application here:
 
-**🔗 Live Demo:** https://cgpa-gpa-calculator-eight.vercel.app
+**🔗 Live Demo:** https://cgpa-gpa-calculator-mu.vercel.app
 
 
 ## 🚀 Features
